@@ -11,6 +11,7 @@ metadata {
 		importUrl: "https://raw.githubusercontent.com/gleeds/particle-garage/master/drivers/Particle_Garage.groovy"
     ) {
         capability "GarageDoorControl"
+        capability "Polling"
     }
 }
 
